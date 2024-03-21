@@ -1,0 +1,90 @@
+body{
+    background-image: url("../juego/images/constelaciones.jpg");
+    background-size: cover;
+  background-repeat:no-repeat;
+//   background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+
+form{
+    align-items: left;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+label{
+    color: beige;
+    text-align: center;
+    margin-right: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+input{
+   border-radius: 60px;
+   align-items: center;
+   text-align: center;
+   margin-left: 2rem;
+   margin-bottom: 2rem;
+   padding: 0.5rem;
+   border-style: none;
+}
+
+h1{
+    text-align: center;
+    color: beige;
+}
+
+h3{
+    color: beige;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+#get{
+border-radius: 60px;
+padding: 1rem;
+background-color: aqua;
+}
+
+#adivinar{
+    border-radius: 60px;
+    padding: 1rem;
+    background-color: aqua;
+}
+
+#reiniciar{
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: -5.2rem;
+    border-radius: 60px;
+    padding: 1rem;
+    background-color: aqua;
+    
+}
+
+#get:hover{
+    background-color: rgba(aquamarine, 0.7);
+    }
+
+    #adivinar:hover{
+        background-color: rgba(aquamarine, 0.7);
+        }
+        #reiniciar:hover{
+            background-color:rgba(aquamarine, 0.7);
+            }
+
+input:focus-visible{
+    background-color: rgba(aquamarine, 0.5);
+}
+
+ul, li{
+    
+    align-items: center;
+    color:beige;
+    font-size: large;
+    list-style:decimal;
+    
+}
